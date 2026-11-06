@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-13T11:48:48",
+  "processed": 23125,
+  "total": 23125,
+  "remaining": 0,
+  "percent": 100.0,
+  "downloaded": 23091,
+  "already_exists": 0,
+  "failed": 34,
+  "elapsed_seconds": 3296.2,
+  "last_error": "Unexpected iNaturalist photo URL format: https://inaturalist-open-data.s3.amazonaws.com/photos/729983355/square.gif",
+  "results_csv": "/rs1/researchers/a/amallav/species_classification/ecological_informatics/manifest/download_results_20261013_105351.csv"
+}

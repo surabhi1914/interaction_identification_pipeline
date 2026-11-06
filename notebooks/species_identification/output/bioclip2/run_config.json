@@ -1,0 +1,8 @@
+{
+  "input": "/rs1/researchers/a/amallav/species_classification/ecological_informatics/notebooks/object_detection/output/analysis/bioclip2_input_detections.parquet",
+  "model": "hf-hub:imageomics/bioclip-2",
+  "top_k": 5,
+  "max_crops": null,
+  "total_crops": 29391,
+  "source_row_rank_keys_hash": "1dc08da2bd2ee9cbc60dec60e3a9923e67d825db2e3f30a6da0642522ad0cd25"
+}

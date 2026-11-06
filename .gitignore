@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.conda/
+.pip_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+env_*/
+conda_env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded datasets and images
+data/
+datasets/
+images/
+downloads/
+crops/
+outputs/
+results/
+*.parquet
+*.csv
+*.jsonl
+
+# Model weights and caches
+checkpoints/
+_hf_cache/
+.cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# SLURM outputs and logs
+slurm-*.out
+slurm-*.err
+*.log
+
+# Temporary files
+tmp/
+temp/
+.DS_Store
+
+# Folders to ignore
+logs/*
+models/*
+image_dataset_raw/*
+
+# Keep the placeholder file
+!logs/.gitkeep
+!models/.gitkeep
+!image_dataset_raw/.gitkeep
+
+start.sh
+run_to_convert.py

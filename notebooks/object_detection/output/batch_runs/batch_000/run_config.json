@@ -1,0 +1,14 @@
+{
+  "model_dir": "/rs1/researchers/a/amallav/species_classification/ecological_informatics/models/grounding-dino-base",
+  "inputs": [
+    "/rs1/researchers/a/amallav/species_classification/ecological_informatics/notebooks/object_detection/data/dataset_animalia_with_prompts_1.parquet",
+    "/rs1/researchers/a/amallav/species_classification/ecological_informatics/notebooks/object_detection/data/dataset_animalia_with_prompts_2.parquet",
+    "/rs1/researchers/a/amallav/species_classification/ecological_informatics/notebooks/object_detection/data/dataset_animalia_with_prompts_3.parquet"
+  ],
+  "batch_id": 0,
+  "batch_size": 8000,
+  "top_n": 5,
+  "box_threshold": 0.35,
+  "text_threshold": 0.25,
+  "total_rows": 23091
+}

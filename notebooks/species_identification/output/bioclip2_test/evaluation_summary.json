@@ -1,0 +1,27 @@
+{
+  "observed_image_accuracy": {
+    "total_images_with_rank1_prediction": 6.0,
+    "total_images_evaluated": 6.0,
+    "correctly_identified_true": 4.0,
+    "falsely_identified_false": 2.0,
+    "observed_accuracy": 0.6666666666666666,
+    "observed_error_rate": 0.3333333333333333,
+    "excluded_missing_species_labels": 0.0,
+    "input_crops": 10.0,
+    "classified_crops": 10.0,
+    "unclassified_crops": 0.0
+  },
+  "overall_topk_candidate_mean_taxonomic_distance": 3.84,
+  "overall_topk_candidate_distances_evaluated": 50,
+  "overall_topk_candidate_distances_unresolved": 0,
+  "distance_scale": {
+    "0": "Same species",
+    "1": "Same genus, different species",
+    "2": "Same family, different genus",
+    "3": "Same order, different family",
+    "4": "Same class, different order",
+    "5": "Same phylum, different class",
+    "6": "Same kingdom, different phylum",
+    "7": "No shared known level"
+  }
+}
