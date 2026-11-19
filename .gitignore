@@ -29,7 +29,7 @@ downloads/
 crops/
 outputs/
 results/
-*.parquet
+# *.parquet
 *.csv
 *.jsonl
 
